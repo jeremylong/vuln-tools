@@ -101,7 +101,7 @@ After running `install` you may need to restart your shell for the completion to
 
 ```bash
 $ ./gradlew build
-$ cd app/build/libs
+$ cd vulnz/build/libs
 $ ./vulnz-1.0.0.jar install
 $ vulnz cve --cveId CVE-2021-44228 --prettyPrint
 ```
